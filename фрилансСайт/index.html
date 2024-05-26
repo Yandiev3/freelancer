@@ -39,16 +39,20 @@
             <button id="showForm"><a href="#!" class="btn">Communication with me</a></button>
             <div class="feedback">
                 <form id="feedbackForm">
-                    <label for="name">Имя:</label>
-                    <input type="text" id="name" name="name" required placeholder="Имя Фамилия">
-              
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required placeholder="email">
-              
-                    <label for="message">Сообщение:</label>
-                    <textarea id="message" name="message" required placeholder="Мне нужен сайт/Магазина одежды"></textarea>
-    
-                    <button id="sendForm" type="submit">Отправить</button>
+                    <div class="feedbackForm-main">
+                        <div class="feedbackForm-inp">
+                            <label class="feedbackForm-label" for="name">Имя:</label><input type="text" id="name" name="name" required placeholder="Имя Фамилия">
+                        </div>
+                        <div class="feedbackForm-inp">
+                            <label class="feedbackForm-label" for="name">Email:</label><input type="text" id="name" name="name" required placeholder="Email:">
+                        </div>
+                        <div class="feedbackForm-inp">
+                            <label class="feedbackForm-label" for="name">Сообщение:</label><textarea id="message" name="message" required placeholder="Мне нужен сайт/Магазина одежды"></textarea>
+                        </div><br>
+                        <div class="feedbackForm-inp">
+                            <button id="sendForm" type="submit">Отправить</button>
+                        </div>
+                    </div>
               </form>
             </div>
         </div>
