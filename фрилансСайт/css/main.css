@@ -412,8 +412,12 @@ html, body {
 
 
 /* feedback */
-.feedback{
 
+.feedbackForm-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 #feedbackForm{
     margin-top: 5%;
@@ -458,4 +462,13 @@ html, body {
 #feedbackForm button:active {
     position: relative;
     top: 1px;
+}
+
+#message{
+    width: 80%;
+    height: 150px;
+    text-align: center;
+}
+#message textarea{
+    border: 1px solid var(--purple);
 }
